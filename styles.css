@@ -9,20 +9,20 @@
 
 /* ---------- Design tokens ---------- */
 :root {
-  /* Dark Green (default) */
-  --bg-primary: #0A0F0D;
-  --bg-secondary: #0F172A;
-  --bg-elevated: #10161A;
-  --bg-elevated-2: #121A22;
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.16);
-  --accent: #22C55E;
-  --accent-2: #4ADE80;
-  --accent-soft: rgba(34, 197, 94, 0.1);
-  --accent-glow: rgba(34, 197, 94, 0.35);
-  --accent-rgb: 34, 197, 94;
-  --text-primary: #E5E7EB;
-  --text-secondary: #9CA3AF;
+  /* Custom palette (requested) */
+  --bg-primary: #0B0D10; /* Fundo principal — Grafite quase-preto */
+  --bg-secondary: #12151A; /* Fundo de cards/seções (um pouco mais claro) */
+  --bg-elevated: #12151A;
+  --bg-elevated-2: #14171B;
+  --border-subtle: rgba(34, 38, 44, 0.22); /* Bordas/divisores — Cinza escuro */
+  --border-strong: rgba(34, 38, 44, 0.48);
+  --accent: #4C7EFF; /* Accent único — Azul frio */
+  --accent-2: #5E8AFA; /* alternativa/discreto */
+  --accent-soft: rgba(76, 126, 255, 0.06);
+  --accent-glow: rgba(76, 126, 255, 0.18);
+  --accent-rgb: 76, 126, 255;
+  --text-primary: #E9ECEF; /* Texto principal — Branco levemente quebrado */
+  --text-secondary: #8B93A1; /* Texto secundário/legendas — Cinza médio */
   --text-tertiary: #6B7280;
   --radius: 12px;
   --radius-sm: 8px;
