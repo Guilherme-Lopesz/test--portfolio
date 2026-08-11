@@ -19,7 +19,7 @@
     "nav.contact": "Contact",
     "nav.resume": "Resume",
 
-    "hero.eyebrow": "SOFTWARE DEVELOPMENT × AI × AUTOMATION",
+    "hero.eyebrow": "SOFTWARE DEVELOPMENT �- AI �- AUTOMATION",
     "hero.badge": "OPEN TO INTERNATIONAL OPPORTUNITIES",
     "hero.headline.pre": "Software Engineer building practical systems across",
     "hero.headline.accent": "AI and automation",
@@ -194,7 +194,7 @@
     "about.card1.title": "Who I Am & What I Build",
     "about.card1.body": "Computer Science student in Brazil who builds real, working software rather than just following tutorials — a voice-driven AI agent, an encrypted chat platform, an AI-assisted transaction classifier, an algorithm benchmarking tool and an interactive learning simulation are all things I've <strong>designed, implemented and documented</strong> myself.",
     "about.card2.title": "What I've Explored",
-    "about.card2.body": "Hands-on experience with <strong>penetration testing</strong> and vulnerability analysis, including <strong>NFC/RFID</strong> systems with Proxmark3. Currently deepening my knowledge of <strong>neural networks and multimodal AI agents</strong>, applying what I learn directly to project work.",
+    "about.card2.body": "Hands-on exploration of <strong>penetration testing</strong> and vulnerability analysis, including <strong>NFC/RFID</strong> systems with Proxmark3. Currently deepening my knowledge of <strong>neural networks and multimodal AI agents</strong>, applying what I learn directly to project work.",
     "about.card3.title": "What's Next",
     "about.card3.body": "My professional focus is <strong>software development, AI and automation</strong>. Cybersecurity remains an academic and technical area of interest I keep exploring through projects like Nexus. I'm looking for a remote, international <strong>junior software engineering or AI-focused opportunity</strong> where I can keep building, testing and learning from real feedback.",
 
@@ -306,16 +306,16 @@
     "contact.resume": "Download Resume",
     "contact.email.title": "Email",
     "contact.email.body": "Best way to reach me about opportunities.",
-    "contact.email.link": "Send an email ↗",
+    "contact.email.link": "Send an email �-",
     "contact.linkedin.title": "LinkedIn",
     "contact.linkedin.body": "Full career background & recommendations.",
-    "contact.linkedin.link": "View profile ↗",
+    "contact.linkedin.link": "View profile �-",
     "contact.github.title": "GitHub",
     "contact.github.body": "Source code for every project above.",
-    "contact.github.link": "View repositories ↗",
+    "contact.github.link": "View repositories �-",
     "contact.whatsapp.title": "WhatsApp",
     "contact.whatsapp.body": "Also available for a quick chat.",
-    "contact.whatsapp.link": "Open chat ↗",
+    "contact.whatsapp.link": "Open chat �-",
 
     "footer.note": "built with intent, from Brazil to the world.",
     "footer.top": "Back to top ↑",
@@ -333,7 +333,7 @@
     "nav.contact": "Contato",
     "nav.resume": "Currículo",
 
-    "hero.eyebrow": "DESENVOLVIMENTO DE SOFTWARE × IA × AUTOMAÇÃO",
+    "hero.eyebrow": "DESENVOLVIMENTO DE SOFTWARE �- IA �- AUTOMAÇÃO",
     "hero.badge": "ABERTO A OPORTUNIDADES INTERNACIONAIS",
     "hero.headline.pre": "Engenheiro de Software construindo sistemas práticos em",
     "hero.headline.accent": "IA e automação",
@@ -620,16 +620,16 @@
     "contact.resume": "Baixar Currículo",
     "contact.email.title": "Email",
     "contact.email.body": "Melhor forma de falar sobre oportunidades.",
-    "contact.email.link": "Enviar um email ↗",
+    "contact.email.link": "Enviar um email �-",
     "contact.linkedin.title": "LinkedIn",
     "contact.linkedin.body": "Trajetória completa e recomendações.",
-    "contact.linkedin.link": "Ver perfil ↗",
+    "contact.linkedin.link": "Ver perfil �-",
     "contact.github.title": "GitHub",
     "contact.github.body": "Código-fonte de cada projeto acima.",
-    "contact.github.link": "Ver repositórios ↗",
+    "contact.github.link": "Ver repositórios �-",
     "contact.whatsapp.title": "WhatsApp",
     "contact.whatsapp.body": "Também disponível para uma conversa rápida.",
-    "contact.whatsapp.link": "Abrir conversa ↗",
+    "contact.whatsapp.link": "Abrir conversa �-",
 
     "footer.note": "construído com intenção, do Brasil para o mundo.",
     "footer.top": "Voltar ao topo ↑",
@@ -834,7 +834,7 @@
       categoryKey: 'proj.merlin.category',
       descKey: 'proj.merlin.desc',
       image: 'img/merlim.mae1.jpeg',
-      imageAltKey: 'video/merlim-em-breve.mp4',
+      imageAltKey: 'proj.merlin.imageAlt',
       techKeys: ['merlin.tech1', 'merlin.tech2', 'merlin.tech3'],
       github: 'https://github.com/Guilherme-Lopesz/Merlin-voice-agent',
       demo: null,
@@ -849,7 +849,7 @@
         resultKeys: ['merlin.result1', 'merlin.result2', 'merlin.result3'],
         applicationKey: 'merlin.application',
         limitationsKey: 'merlin.limitations',
-        media: [{ src: 'img/merlin-cover.jpeg', altKey: 'proj.merlin.imageAlt' }]
+        media: [{ src: 'video/merlin-em-breve.mp4', altKey: 'proj.merlin.imageAlt' }]
       }
     },
     {
@@ -877,7 +877,7 @@
         resultKeys: ['nexus.result1', 'nexus.result2', 'nexus.result3'],
         applicationKey: 'nexus.application',
         limitationsKey: 'nexus.limitations',
-        media: [{ src: 'img/nexus-interface.png', altKey: 'proj.nexus.imageAlt' }]
+        media: [{ src: 'video/nexus-video2.mp4', altKey: 'proj.nexus.imageAlt' }]
       }
     },
     {
@@ -901,7 +901,7 @@
         resultKeys: ['graphroute.result1', 'graphroute.result2', 'graphroute.result3'],
         applicationKey: 'graphroute.application',
         limitationsKey: 'graphroute.limitations',
-        media: [{ src: 'img/graphroute-cover.png', altKey: 'proj.graphroute.imageAlt' }]
+        media: [{ src: 'video/rotas.mp4', altKey: 'proj.graphroute.imageAlt' }]
       }
     },
     {
@@ -910,7 +910,7 @@
       categoryKey: 'proj.giro.category',
       descKey: 'proj.giro.desc',
       image: 'img/giro-tela-inicial.png',
-      imageAltKey: 'video/Giro-Readme-github.mp4',
+      imageAltKey: 'proj.giro.imageAlt',
       techKeys: ['giro.tech1', 'giro.tech2', 'giro.tech3'],
       github: 'https://github.com/Guilherme-Lopesz/Classificador-Inteligente-de-Transa-es',
       demo: null,
@@ -925,7 +925,7 @@
         resultKeys: ['giro.result1', 'giro.result2', 'giro.result3'],
         applicationKey: 'giro.application',
         limitationsKey: 'giro.limitations',
-        media: [{ src: 'video/Giro-Readme-github.mp4', altKey: 'proj.giro.imageAlt' }]
+        media: [{ src: 'video/Giro-Readme-github.mp4', altKey: 'proj.giro.imageAlt', type: 'video' }]
       }
     },
     {
@@ -949,7 +949,7 @@
         resultKeys: ['vidascampo.result1', 'vidascampo.result2', 'vidascampo.result3'],
         applicationKey: 'vidascampo.application',
         limitationsKey: 'vidascampo.limitations',
-        media: [{ src: 'img/vidas-do-campo-cover.png', altKey: 'proj.vidascampo.imageAlt' }]
+        media: [{ src: 'video/merlin-em-breve.mp4', altKey: 'proj.vidascampo.imageAlt' }]
       }
     }
   ];
@@ -966,6 +966,7 @@
   var ICON_ARROW_LEFT = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/></svg>';
   var ICON_ARROW_RIGHT = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>';
   var ICON_CHECK = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.008 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-5.425z"/></svg>';
+  var ICON_PLAY = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/></svg>';
 
   function t(key, lang) {
     var dict = translations[lang] || translations.en;
@@ -1051,7 +1052,27 @@
   var currentModalProjectId = null;
   var currentGalleryIndex = 0;
   var modalTriggerEl = null;
+  var savedScrollY = 0;
   var FOCUSABLE_SELECTOR = 'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
+
+  function isVideoMedia(item) {
+    if (!item) return false;
+    if (item.type === 'video') return true;
+    return /\.(mp4|webm|mov|m4v|ogg)(\?.*)?$/i.test(item.src || '');
+  }
+
+  function galleryMediaHtml(item, lang) {
+    if (!item) return '';
+    var altText = item.altKey ? t(item.altKey, lang) : '';
+    if (isVideoMedia(item)) {
+      return '<video id="modalGalleryImg" class="modal-gallery-video" src="' + item.src + '"' +
+        (item.poster ? ' poster="' + item.poster + '"' : '') +
+        ' controls playsinline preload="metadata"' +
+        (altText ? ' aria-label="' + altText + '"' : '') +
+        '></video>';
+    }
+    return '<img id="modalGalleryImg" src="' + item.src + '" alt="' + altText + '" loading="lazy">';
+  }
 
   function renderModalContent(project, lang) {
     if (!modalScroll) return;
@@ -1077,7 +1098,11 @@
 
     var thumbsHtml = media.length > 1
       ? '<div class="modal-thumbs">' + media.map(function (m, i) {
-          return '<button type="button" class="modal-thumb' + (i === 0 ? ' active' : '') + '" data-gallery-index="' + i + '"><img src="' + m.src + '" alt="" loading="lazy"></button>';
+          var vid = isVideoMedia(m);
+          var thumbImgSrc = vid ? (m.poster || '') : m.src;
+          var thumbInner = thumbImgSrc ? '<img src="' + thumbImgSrc + '" alt="" loading="lazy">' : '';
+          var playBadge = vid ? '<span class="modal-thumb-play" aria-hidden="true">' + ICON_PLAY + '</span>' : '';
+          return '<button type="button" class="modal-thumb' + (i === 0 ? ' active' : '') + (vid ? ' is-video' : '') + '" data-gallery-index="' + i + '">' + thumbInner + playBadge + '</button>';
         }).join('') + '</div>'
       : '';
 
@@ -1090,14 +1115,17 @@
       ? '<a href="' + project.demo + '" target="_blank" rel="noopener" class="btn btn-outline"><span>' + t('proj.liveDemo', lang) + '</span>' + ICON_LINK + '</a>'
       : '';
 
+    var firstMedia = media[0] || { src: project.image, altKey: project.imageAltKey };
+    var firstIsVideo = isVideoMedia(firstMedia);
+
     modalScroll.innerHTML =
       '<div class="modal-header">' +
         '<span class="modal-category">' + t(project.categoryKey, lang) + '</span>' +
         '<h2 class="modal-title" id="modalTitle">' + t(project.titleKey, lang) + '</h2>' +
       '</div>' +
       '<div class="modal-gallery">' +
-        '<div class="modal-gallery-main" id="modalGalleryMain" title="' + t('modal.zoomHint', lang) + '">' +
-          '<img id="modalGalleryImg" src="' + (media[0] ? media[0].src : project.image) + '" alt="' + t(media[0] ? media[0].altKey : project.imageAltKey, lang) + '" loading="lazy">' +
+        '<div class="modal-gallery-main' + (firstIsVideo ? ' is-video' : '') + '" id="modalGalleryMain"' + (firstIsVideo ? '' : ' title="' + t('modal.zoomHint', lang) + '"') + '>' +
+          '<div class="modal-gallery-media" id="modalGalleryMedia">' + galleryMediaHtml(firstMedia, lang) + '</div>' +
           galleryNavHtml +
         '</div>' +
         thumbsHtml +
@@ -1141,11 +1169,21 @@
     if (!media.length) return;
     currentGalleryIndex = ((index % media.length) + media.length) % media.length;
 
-    var img = document.getElementById('modalGalleryImg');
-    if (img) {
-      img.src = media[currentGalleryIndex].src;
-      img.alt = t(media[currentGalleryIndex].altKey, currentLangCode());
+    var item = media[currentGalleryIndex];
+    var vid = isVideoMedia(item);
+    var lang = currentLangCode();
+
+    var mediaContainer = document.getElementById('modalGalleryMedia');
+    if (mediaContainer) mediaContainer.innerHTML = galleryMediaHtml(item, lang);
+
+    var mainEl = document.getElementById('modalGalleryMain');
+    if (mainEl) {
+      mainEl.classList.remove('zoomed');
+      mainEl.classList.toggle('is-video', vid);
+      if (vid) mainEl.removeAttribute('title');
+      else mainEl.setAttribute('title', t('modal.zoomHint', lang));
     }
+
     modalScroll.querySelectorAll('.modal-thumb').forEach(function (thumb, i) {
       thumb.classList.toggle('active', i === currentGalleryIndex);
     });
@@ -1178,6 +1216,9 @@
     currentModalProjectId = id;
     renderModalContent(project, currentLangCode());
 
+    savedScrollY = window.scrollY || window.pageYOffset || 0;
+    document.body.style.top = '-' + savedScrollY + 'px';
+
     modalOverlay.classList.add('open');
     modalOverlay.setAttribute('aria-hidden', 'false');
     document.body.classList.add('modal-open');
@@ -1191,6 +1232,8 @@
     modalOverlay.classList.remove('open');
     modalOverlay.setAttribute('aria-hidden', 'true');
     document.body.classList.remove('modal-open');
+    document.body.style.top = '';
+    window.scrollTo(0, savedScrollY);
     document.removeEventListener('keydown', onModalKeydown);
     currentModalProjectId = null;
     if (modalTriggerEl && typeof modalTriggerEl.focus === 'function') modalTriggerEl.focus();
@@ -1216,7 +1259,7 @@
 
       if (thumb) { setGalleryIndex(parseInt(thumb.getAttribute('data-gallery-index'), 10)); return; }
       if (navBtn) { setGalleryIndex(currentGalleryIndex + parseInt(navBtn.getAttribute('data-gallery-dir'), 10)); return; }
-      if (mainImg) { mainImg.classList.toggle('zoomed'); }
+      if (mainImg && !mainImg.classList.contains('is-video')) { mainImg.classList.toggle('zoomed'); }
     });
   }
 
