@@ -909,7 +909,7 @@
       titleKey: 'proj.giro.title',
       categoryKey: 'proj.giro.category',
       descKey: 'proj.giro.desc',
-      image: 'img/giro-tela-inicial.png',
+      image: 'img/Giro-tela-inicial.png',
       imageAltKey: 'proj.giro.imageAlt',
       techKeys: ['giro.tech1', 'giro.tech2', 'giro.tech3'],
       github: 'https://github.com/Guilherme-Lopesz/Classificador-Inteligente-de-Transa-es',
