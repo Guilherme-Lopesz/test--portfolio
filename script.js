@@ -4,6 +4,7 @@
    Scroll reveal · Active nav highlighting · WhatsApp contact
    ============================================================ */
 
+(function () {
   'use strict';
 
   /* ---------- i18n dictionary ---------- */
