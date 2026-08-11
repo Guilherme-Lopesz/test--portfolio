@@ -37,17 +37,17 @@
   --shadow-elevated: 0 20px 60px rgba(0,0,0,0.5);
 }
 
-/* Dark Minimal (monochrome) theme override */
+/* Dark Minimal (monochrome) theme override — aligned with custom palette */
 :root[data-theme="dark-minimal"] {
-  --bg-primary: #0A0A0B;
-  --bg-secondary: #111113;
-  --bg-elevated: #131315;
-  --bg-elevated-2: #17171A;
-  --accent: #E5E7EB;
-  --accent-2: #FAFAFA;
-  --accent-soft: rgba(229, 231, 235, 0.08);
-  --accent-glow: rgba(229, 231, 235, 0.22);
-  --accent-rgb: 229, 231, 235;
+  --bg-primary: #0B0D10;
+  --bg-secondary: #12151A;
+  --bg-elevated: #12151A;
+  --bg-elevated-2: #14171B;
+  --accent: #4C7EFF;
+  --accent-2: #5E8AFA;
+  --accent-soft: rgba(76, 126, 255, 0.06);
+  --accent-glow: rgba(76, 126, 255, 0.18);
+  --accent-rgb: 76, 126, 255;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -318,8 +318,7 @@ section.reveal-section + section.reveal-section { padding-top: 0; }
 /* ============================================================
    TRUST ROW
    ============================================================ */
-.trust-row { padding: 40px 0; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); }
-.trust-row .container { display: flex; align-items: center; gap: 32px; flex-wrap: wrap; }
+.edu-trust { display: flex; align-items: center; gap: 32px; flex-wrap: wrap; padding-bottom: 32px; margin-bottom: 40px; border-bottom: 1px solid var(--border-subtle); }
 .trust-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; color: var(--text-tertiary); white-space: nowrap; }
 .trust-logos { display: flex; gap: 36px; flex-wrap: wrap; flex: 1; }
 .trust-logos span {
@@ -392,7 +391,7 @@ noscript p { color: var(--text-secondary); font-size: 14px; }
 }
 .modal-close svg { width: 15px; height: 15px; }
 .modal-close:hover { color: var(--accent-2); border-color: var(--accent); }
-.modal-scroll { overflow-y: auto; max-height: 88vh; padding: 40px 40px 44px; }
+.modal-scroll { overflow-y: auto; max-height: 88vh; padding: 40px 40px 44px; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
 
 .modal-header { padding-right: 40px; margin-bottom: 22px; }
 .modal-category { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.07em; color: var(--accent-2); text-transform: uppercase; }
@@ -400,8 +399,14 @@ noscript p { color: var(--text-secondary); font-size: 14px; }
 
 .modal-gallery { position: relative; margin-bottom: 26px; border-radius: var(--radius); overflow: hidden; background: var(--bg-secondary); border: 1px solid var(--border-subtle); }
 .modal-gallery-main { position: relative; aspect-ratio: 16/10; cursor: zoom-in; overflow: hidden; }
-.modal-gallery-main img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
+.modal-gallery-media { width: 100%; height: 100%; }
+.modal-gallery-main img, .modal-gallery-main video { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; display: block; }
 .modal-gallery-main.zoomed img { object-fit: contain; cursor: zoom-out; }
+.modal-gallery-main.is-video { cursor: default; }
+.modal-gallery-main video { cursor: default; background: #000; }
+.modal-thumb { position: relative; }
+.modal-thumb-play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--text-primary); background: rgba(0,0,0,0.32); }
+.modal-thumb-play svg { width: 18px; height: 18px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.6)); }
 .modal-gallery-nav {
   position: absolute; top: 50%; transform: translateY(-50%); width: 34px; height: 34px; border-radius: 50%;
   background: rgba(10,15,13,0.72); border: 1px solid var(--border-subtle); color: var(--text-primary);
@@ -419,7 +424,7 @@ noscript p { color: var(--text-secondary); font-size: 14px; }
 
 .modal-section { margin-bottom: 24px; }
 .modal-section:last-of-type { margin-bottom: 28px; }
-.modal-section-label { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.07em; color: var(--text-tertiary); text-transform: uppercase; margin-bottom: 9px; }
+.modal-section-label { font-family: var(--font-mono); font-size: 11.5px; font-weight: 600; letter-spacing: 0.07em; color: var(--accent-2); text-transform: uppercase; margin-bottom: 10px; }
 .modal-section p { font-size: 14.5px; color: var(--text-secondary); line-height: 1.75; }
 .modal-tech-tags { display: flex; flex-wrap: wrap; gap: 7px; }
 .modal-flow { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
@@ -427,7 +432,7 @@ noscript p { color: var(--text-secondary); font-size: 14px; }
 .modal-flow-arrow { color: var(--text-tertiary); display: flex; }
 .modal-flow-arrow svg { width: 14px; height: 14px; }
 .modal-decisions { display: flex; flex-direction: column; gap: 12px; }
-.modal-decision-item { padding: 14px 16px; border-radius: 10px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle); }
+.modal-decision-item { padding: 14px 16px; border-radius: 10px; background: rgba(255,255,255,0.04); border: 1px solid var(--border-subtle); }
 .modal-decision-q { font-weight: 600; font-size: 14px; margin-bottom: 4px; }
 .modal-decision-a { font-size: 13.5px; color: var(--text-secondary); line-height: 1.65; }
 .modal-results { display: flex; flex-direction: column; gap: 10px; }
@@ -435,7 +440,7 @@ noscript p { color: var(--text-secondary); font-size: 14px; }
 .modal-results li svg { width: 16px; height: 16px; color: var(--accent-2); flex-shrink: 0; margin-top: 2px; }
 .modal-links { display: flex; gap: 12px; flex-wrap: wrap; }
 
-body.modal-open { overflow: hidden; }
+body.modal-open { overflow: hidden; position: fixed; width: 100%; }
 
 /* ============================================================
    ABOUT
@@ -616,7 +621,7 @@ body.modal-open { overflow: hidden; }
   .hero { padding: 40px 0 40px; }
   .hero-cta { flex-direction: column; align-items: stretch; }
   .hero-cta .btn { text-align: center; }
-  .trust-row .container { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .edu-trust { flex-direction: column; align-items: flex-start; gap: 16px; }
   .cert-card { flex-direction: column; align-items: flex-start; }
   .cert-action { width: 100%; justify-content: space-between; }
   .brand-role { display: none; }
